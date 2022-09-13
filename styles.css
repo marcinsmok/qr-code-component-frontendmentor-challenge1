@@ -7,7 +7,7 @@
 body {
     background-color: hsl(212, 45%, 89%);
     color: hsl(218, 44%, 22%);
-    font-family:Outfit, sans-serif
+    font-family: 'Outfit', sans-serif
 }
 .container {
     position: absolute;
@@ -15,7 +15,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 75vh;
+    height: 78vh;
     width: 25vw;
     border-radius: 5%;
 
@@ -23,10 +23,8 @@ body {
 
 .qr_block {
     position: relative;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 58%;
+    margin: 15px auto;
+    height: 60%;
     width: 90%;
     border-radius: 5%;
     background-image: url("/images/image-qr-code.png");
@@ -36,14 +34,16 @@ body {
 }
 
 h1 {
-    font-size:20px;
-margin:30px;
-text-align: center;}
+    font-size:22px;
+margin:20px 30px 10px 30px;
+text-align: center;
+font-weight: 700;}
 p {
-    margin:30px;
+    margin: 0 35px 30px 35px;
     font-size: 15px;
     text-align: center;
     color:hsl(220, 15%, 55%);
+    font-weight: 400;
 }
 
 .attribution {
