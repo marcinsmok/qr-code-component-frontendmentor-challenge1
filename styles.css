@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.container {
+    position: absolute;
+    background-color:hsl(0, 0%, 100%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70vh;
+    width: 30vw;
+    border-radius: 10%;
+
+}
+
+.qr_block {
+    position: relative;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 70%;
+    width: 90%;
+    border-radius: 10%;
+    background-image: url(/images/image-qr-code.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
