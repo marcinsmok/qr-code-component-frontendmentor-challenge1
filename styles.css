@@ -4,35 +4,47 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: hsl(212, 45%, 89%);
+    color: hsl(218, 44%, 22%);
+    font-family:Outfit, sans-serif
 }
 .container {
     position: absolute;
-    background-color:hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 70vh;
-    width: 30vw;
-    border-radius: 10%;
+    height: 75vh;
+    width: 25vw;
+    border-radius: 5%;
 
 }
 
 .qr_block {
     position: relative;
-    top:40%;
-    left:50%;
+    top: 32%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    height: 70%;
+    height: 58%;
     width: 90%;
-    border-radius: 10%;
-    background-image: url(/images/image-qr-code.png);
+    border-radius: 5%;
+    background-image: url("/images/image-qr-code.png");
     background-size: cover;
     background-position: center;
 
 }
 
+h1 {
+    font-size:20px;
+margin:30px;
+text-align: center;}
+p {
+    margin:30px;
+    font-size: 15px;
+    text-align: center;
+    color:hsl(220, 15%, 55%);
+}
 
 .attribution {
     font-size: 11px;
